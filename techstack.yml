@@ -1,0 +1,42 @@
+repo_name: aldoyh/away3d
+report_id: 20bd3b1559dab719e77f88a31ecded6b
+version: 0.1
+repo_type: Public
+timestamp: '2024-01-10T18:26:02+00:00'
+requested_by: jgranick
+provider: github
+branch: master
+detected_tools_count: 3
+tools:
+- name: Haxe
+  description: The Cross-platform Toolkit
+  website_url: https://haxe.org/
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Templating Languages & Extensions
+  image_url: https://img.stackshare.io/service/2025/apHCixcJ_400x400.jpg
+  detection_source_url: https://github.com/aldoyh/away3d
+  detection_source: Repo Metadata
+- name: CircleCI
+  description: Automate your development process quickly, safely, and at scale
+  website_url: https://circleci.com/
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/190/CvqrSSFs_400x400.jpg
+  detection_source_url: https://github.com/aldoyh/away3d/blob/master/.circleci/config.yml
+  detection_source: ".circleci/config.yml"
+  last_updated_by: Joshua Granick
+  last_updated_on: 2017-07-28 22:53:04.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/aldoyh/away3d
+  detection_source: Repo Metadata
